@@ -28,7 +28,7 @@
                 <div class="word-result-box">
                     <p>{{ word['value'] }}</p>
                     <div class="divider"></div>
-                    <p style="color: #699;">Part of Speech: {{ word['part_of_speech'] }}</p>
+                    <p style="color: #699;">{{ word['part_of_speech'] }}</p>
                     <p>Definition: {{ word['definition'] }}</p>
                     {% if word['usage'] | length > 0 %}
                         <p>Usage: </p>
